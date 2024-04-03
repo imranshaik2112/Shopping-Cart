@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.links {
+  width: 100%;
+  margin-inline: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 35px;
+}
+
+@media (max-width: 470px) {
+  .links {
+    margin-inline: 30px;
+  }
+  .links a {
+    margin-left: 0px;
+  }
+}
